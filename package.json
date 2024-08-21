@@ -1,6 +1,6 @@
 {
   "name": "@oni93/vue-searchable-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "```\r <vue-searchable-component\r     :newTag=\"false\"\r     :options=\"suppliers.map(function (supplier) {\r                     return {\r                         text: supplier.name,\r                         id: supplier.id\r                     }\r                 })\"\r     :placeholder=\"'Select Supplier'\"\r     @input=\"(data)=>{this.product_form.suppier_id = data.id ?? null}\">\r </vue-searchable-component>\r ```",
   "main": "index.js",
   "scripts": {
