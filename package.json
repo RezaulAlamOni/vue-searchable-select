@@ -1,0 +1,19 @@
+{
+  "name": "@oni93/vue-searchable-select",
+  "version": "1.0.0",
+  "description": "```\r <vue-searchable-component\r     :newTag=\"false\"\r     :options=\"suppliers.map(function (supplier) {\r                     return {\r                         text: supplier.name,\r                         id: supplier.id\r                     }\r                 })\"\r     :placeholder=\"'Select Supplier'\"\r     @input=\"(data)=>{this.product_form.suppier_id = data.id ?? null}\">\r </vue-searchable-component>\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RezaulAlamOni/vue-searchable-select.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RezaulAlamOni/vue-searchable-select/issues"
+  },
+  "homepage": "https://github.com/RezaulAlamOni/vue-searchable-select#readme"
+}
